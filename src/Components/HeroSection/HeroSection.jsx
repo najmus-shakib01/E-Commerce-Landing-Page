@@ -16,7 +16,7 @@ const HeroSection = () => {
                 </div>
                 <div className="carousel-inner pt-2">
                     <div className="carousel-item active">
-                        <img src="./image/slider2.jpg" height='200px' className="d-block w-100 img-fluid" alt="slider1" />
+                        <img src="/slider2.jpg" height='200px' className="d-block w-100 img-fluid" alt="slider1" />
                     </div>
                     {
                         heroSectionImg.map((data) => (

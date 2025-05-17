@@ -6,7 +6,7 @@ const TopBanner = () => {
     return (
         <div className="bg-top">
             <div className="container text-center pt-4">
-                <img src="./image/top1.png" className="img-fluid top-img" alt="top" />
+                <img src="/top1.png" className="img-fluid top-img" alt="top" />
                 <div className="row pt-4">
                     {
                         topBannerImgAncorText.map((data) =>
