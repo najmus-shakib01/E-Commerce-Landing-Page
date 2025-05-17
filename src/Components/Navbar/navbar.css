@@ -1,0 +1,16 @@
+.navbar {
+    background-color: #ececec;
+}
+
+.navbar ul li {
+    font-size: 13px;
+    padding: 0 10px;
+}
+
+@media screen and (max-width: 567px){
+    .nav-er-items{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+}

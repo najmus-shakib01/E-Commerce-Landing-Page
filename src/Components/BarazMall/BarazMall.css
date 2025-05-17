@@ -1,0 +1,47 @@
+.flashsale-container img {
+    height: 200px;
+}
+
+.card-title {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.card-hover p,
+.card-hover h6,
+.card-hover small {
+    display: block; 
+    margin: 5px 0; 
+}
+
+.card-price {
+    color: darkcyan;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.card-text {
+    font-size: 15px;
+    font-size: 12px;
+}
+
+.card-hover:hover {
+    background-color: white;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 567px) {
+    .card-hover {
+        background-color: white;
+        margin: 10px;
+        border-radius: 5px;
+    }
+
+    .bg-top h3 {
+        text-align: center;
+    }
+
+    .flashsale-container {
+        text-align: center;
+    }
+}
